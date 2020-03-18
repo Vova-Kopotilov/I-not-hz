@@ -1,0 +1,220 @@
+.head-logo {
+	display: inline-block;
+ 	margin-top: 24px;
+ 	margin-bottom: 21px;
+ }
+.container{
+	width: 1045px;
+	margin:0 auto;
+}
+.head,.head a{
+	color: #000;
+}
+.lodopng {
+	font-size: 42px;
+}
+.head-menu {
+	display: inline-block;
+ 	margin-top: 70px;
+ 	font-size: 21px;
+ 	margin-left: 400px;
+}
+.head-menu a{
+	margin-right: 30px;
+}
+.button {
+	cursor: pointer;
+	vertical-align: middle;
+	background-color: #5094f2;
+	color: white;
+	border: 0px solid #fff; 
+	padding:10px 11px;
+	border-radius: 2px;
+	margin-top: 35px;
+}
+.claider-title {
+	font-size: 42px;
+
+}
+.claider-subtitle {
+	font-size: 26px;
+}
+.claider { 
+	line-height: 45px;
+	margin-left: 480px;
+	color: white;
+}
+.phone  {
+	background-image: url(../img/fone.png);
+	padding-top: 162px;
+	padding-bottom: 287px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.contary-item {
+	display: inline-block; 
+	padding:0px 45px 0px 45px;
+}
+.contary-list {
+	margin-top: 50px;
+}
+.contary-item-title {
+	font-size: 20px;
+	padding-top: 25px;
+	color: #96bff7;
+}
+.contary-item-subtitle {
+	font-size: 15px;
+	padding-top: 15px;
+}
+.shopping-title {
+	font-size: 42px;
+	padding-top: 100px;
+}
+.shopping-img,.shopping-subtitle,.shopping-list {
+	display: inline-block;
+}
+.shopping-subtitle {
+	position: absolute;
+	font-size: 26px;
+}
+.shopping {
+	position: relative;
+}
+.shopping-subtitle,.shopping-list {
+	padding-left: 80px;
+}
+.shopping-list {
+	font-size: 15px;
+	position: absolute;
+	padding-top: 80px;
+	line-height: 30px;
+}
+.shopping-img {
+	padding-top: 30px;
+}
+.shopping-subtitle,.shopping-title,.head-menu {
+	color: #6f7173;
+}
+.shopping-list,.contary-item-subtitle,.footer-end {
+	color: #cfcfcf;
+}
+hr {
+    border: none; 
+    color: #f6f6f6 ; 
+    background-color: #f6f6f6 ; 
+    height: 1px; 
+	margin:50px 0px 40px 0px;
+ }
+.footer {
+	text-align: center;
+}
+.footer-end {
+	margin-bottom: 50px;
+}
+@media screen and (max-width:768px){
+	.container{width:768px;}
+ 	.head-menu{display: inline-block;
+ 				margin-top: 0px;
+ 				font-size: 20px;
+ 				margin-left: 150px;}
+ 	.claider-title {font-size: 30px;}
+	.claider-subtitle {font-size: 30px;}
+	.claider {line-height: 35px;
+			margin-left: 350px;
+			color: white;}
+	.phone  {
+	background-image: url(../img/fone.png);
+	padding-top: 65px;
+	padding-bottom: 60px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	}
+	.contary-item {
+	display: inline-block; 
+	padding:0px 15px 0px 15px;
+	}
+	.contary-item-subtitle{
+		font-size: 16px;
+	}
+	.shopping-list{
+	font-size: 15px;
+    position: absolute;
+    padding-top: 40px;
+    line-height: 30px;
+	}
+	.shopping-subtitle,.shopping-list {
+	padding-left: 30px;
+	}
+	.shopping-title{
+		padding-top: 50px;
+	}
+	.shopping-title{
+		padding-left: 25px;
+	}
+	.button{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width:480px){
+	.container{width:480px;}
+	.head-menu{display: inline-block;
+ 				margin-top: 0px;
+ 				font-size: 11px;
+ 				margin-left: 50px;}
+ 	.head-menu a{margin-right: 19px;}
+ 	.claider-title {font-size: 18px;}
+	.claider-subtitle {font-size: 17px;}
+	.claider { line-height: 18px;
+				margin-left: 220px;
+				color: white;}
+	.phone  {
+	background-image: url(../img/fone.png);
+	padding-top: 45px;
+	padding-bottom: 25px;
+	background-repeat: no-repeat;
+	background-size: 100%;}
+	.button {
+	font-size:20px; 
+	cursor: pointer;
+	text-align: middle;
+	background-color: #5094f2;
+	color: white;
+	border: 0px solid #fff; 
+	padding:10px 11px;
+	border-radius: 2px;
+	margin-top: 25px;}
+	.contary-list {
+	margin-top: 15px;
+	}
+	.contary-item-img,.contary-item-title,.contary-item-subtitle {
+		display: inline-block;
+	}
+	.contary-item{
+		padding: 15px 0px 15px 0px;
+		display: flex;
+	}
+	.contary-item-title{
+		padding-top: 50px;
+		font-size: 25px;
+	}
+	.contary-item-title,.contary-item-subtitle{
+	padding-left: 25px;
+	}
+	.shopping-title{
+	text-align: center;
+	padding-top: 45px;
+	}
+	.shopping-subtitle,.shopping-list{
+	position: static;
+	}
+	.shopping-list {
+	padding-top: 20px;
+	}
+	.shopping-img {
+		padding-left: 60px;
+	}
+	.shopping-subtitle {
+		padding-top: 35px;
+	}
+}
